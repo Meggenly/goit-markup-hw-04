@@ -1,0 +1,495 @@
+/*----Common styles-----*/
+:root{
+        --primaryBrand: #4D5AE5;
+        --pressedState: #404BBF;
+        --mainColor: #2E2F42;
+        --successColor: #31D0AA;
+        --textColor: #434455;
+        --subtleText: #8E8F99;
+        --accentColor: #E7E9FC;
+        --lightBg: #F4F4FD;
+        --white: #FFFFFF;
+        --modalBg: #FCFCFC;
+}
+body{
+        font-family: "Roboto",sans-serif; 
+        color: #434455;
+        background-color: #FFFFFF;
+        color: var(--textColor);        
+}
+
+img{
+        display: block;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p  {
+        margin:0;
+}
+
+
+ul{
+        padding: 0;
+        margin: 0;
+        
+}
+
+.link {
+       text-decoration: none;
+       font-family: "Roboto",sans-serif;
+}
+.list {
+      
+        list-style-type: none;
+        background-color: #FFFFFF;
+        color: var(--primaryBrand:#4D5AE5);
+        text-decoration: none;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        font-family: "Roboto",sans-serif;
+}
+/* -------------HEADER--------------- */
+  /* ---------logo-------- */
+ .logofirst-li {
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #4D5AE5;
+        text-transform: uppercase; 
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-right: 76px;
+        }
+ .logosecond-li {
+        text-decoration: none;
+        font-family:"Raleway", sans-serif ;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #2E2F42;
+        text-transform: uppercase;
+        padding-top: 24px;
+        padding-bottom: 24px;
+ }
+.linkcurrent {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-style: normal;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+.linkcurrent:hover,
+.linkcurrent:focus{  
+        color: var(--pressedState: #404BBF);
+}
+
+.style-adress {
+ margin-left: auto;       
+ font-style: normal;
+
+}
+
+.adres{
+        font-family: "Roboto",sans-serif;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;;
+        color: #434455;
+        font-style: normal;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        display: block;     
+}
+.adres:hover,
+.adres:focus {
+        color: var(--pressedState);
+}
+
+
+.hero-title { 
+        font-family: "Roboto",sans-serif;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+}
+
+.hero-buttton {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: left;
+        cursor: pointer;
+        background-color:#4D5AE5;      
+        color:#FFFFFF;
+        border: none;
+}
+.hero-buttton:hover,
+.hero-buttton:focus {
+        background-color: #404BBF;
+        color:#FFFFFF;
+}
+
+.button {   
+        cursor: pointer;
+        font-family:"Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color:#4D5AE5
+        color:#FFFFFF;
+       
+}
+.button:hover,
+.button:focus {    
+        color: #FFFFFF;
+        background-color: #404BBF;            
+}
+
+ /* ---------Site nav-------- */
+
+.site-nav .link {
+    color: var(--mainColor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 24px 0;
+  
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  
+.site-nav .link:hover,
+.site-nav .link:focus {
+     color: #404BBF;
+}
+
+
+.site-nav.link.current{
+        font-family: "Raleway" sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: var(--mainColor);  
+  }
+  
+  
+     
+/* ---------  main -------- */
+.button {   
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background-color: #F4F4FD;
+}
+.button:hover,
+.button:focus {    
+        color:#FFFFFF;
+        background-color: #404BBF;       
+}
+
+.section-hero {
+        background-color: #2E2F42 ;
+        padding-top: 188px;
+        padding-bottom: 188px;
+   
+}
+.section-title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        margin-bottom: 72px;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: var(--mainColor);
+        font-family: "Roboto",sans-serif;
+}
+
+.bgcolorteam {
+        background-color: #F4F4FD;
+}
+.bgcolorteam {
+        color: var(--lightBg: #F4F4FD);
+  }     
+               
+.namecard {     
+         font-style: normal;
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 1.2;
+         letter-spacing: 0.02em;
+         color: #2E2F42;
+         margin-bottom: 8px;
+        
+}
+.namecard-team {     
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        margin-bottom: 8px;
+        text-align: center;     
+}
+.appname {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:1.5;
+        letter-spacing: 0.02em;
+        color: #434455;    
+   }  
+.appname-team {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-align: center;    
+   }
+.bg-each-team {
+        background-color:#FFFFFF ;
+}
+
+/*----footer------*/
+
+.footer-text {  
+        color: #F4F4FD;
+        background: #2E2F42;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        max-width: 264px;
+} 
+.link-footlogo {
+        font-family:"Raleway",sans-serif ;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        background-color:#2E2F42;
+        text-transform: uppercase; 
+        display: inline-block; 
+        margin-bottom: 16px;
+        padding-top: 0;
+}
+
+.foot-web {
+        color: #4D5AE5;
+        text-transform: uppercase;
+        
+        }
+.foot-studio {
+        color: #F4F4FD;
+        text-transform: uppercase;
+}
+       
+.section-foot{
+        background-color:#2E2F42 ;
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+
+ .effect {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+        background: #2E2F42;
+ }
+
+
+/*---- homework-3------*/
+
+ .container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+
+.nav-menu {   
+        display:flex ;
+        align-items: center;      
+}
+   
+.menu{
+        display:flex ;
+        gap: 40px;
+        margin:0;
+        align-items: center;
+}
+
+.header-container {
+        display:flex;
+
+}
+
+.item-li {
+        display: block;
+        border-radius: 0px 0px 4px 4px;
+}
+
+.li-menu-list {
+        width: calc((100% - 72px) / 4);
+}
+.width{
+        width: calc((100% - 48px) / 3);
+
+}
+
+
+
+.ul-menu-studio{
+        display: flex;
+        gap: 24px;      
+}
+
+.sect-three {
+        padding-bottom: 120px;
+      
+}
+.padding-for-all {
+       padding-top: 120px;  
+       padding-bottom: 120px;
+}
+.section-pad-portf{
+        padding-top: 96px;
+        padding-bottom: 120px;
+}
+.order-button {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+}
+.order-button:hover,
+.order-button:focus {    
+         border: 1px solid transparent;
+}
+.margin-bot{   
+        margin-bottom: 8px;      
+}
+
+.margin-bot-h{
+        margin-bottom: 72px;
+}
+.container-team{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+}
+
+.img-block{
+        border-top: none;
+     
+}
+
+/*-----portfolio----*/
+
+.order-but {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
+       
+}
+
+.order-but:hover,
+.order-but:focus {
+        border: 1px solid transparent;
+}
+.wrap-portf{
+flex-wrap: wrap;
+
+}
+
+.ul-menu-portf {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        margin-bottom: 72px;   
+}
+
+.ul-portf {
+        display: flex;
+        row-gap: 48px;
+        column-gap: 24px;
+        justify-content: center;
+}
+
+
+
+
+.header {
+        border-bottom: 1px solid #e7e9fc;
+}
+.portf-ul-div{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+
+}
