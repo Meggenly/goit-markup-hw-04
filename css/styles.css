@@ -17,11 +17,9 @@ body{
         background-color: #FFFFFF;
         color: var(--textColor);        
 }
-
 img{
         display: block;
 }
-
 
 h1,
 h2,
@@ -31,20 +29,15 @@ h5,
 p  {
         margin:0;
 }
-
-
 ul{
         padding: 0;
-        margin: 0;
-        
+        margin: 0;       
 }
-
 .link {
        text-decoration: none;
        font-family: "Roboto",sans-serif;
 }
 .list {
-      
         list-style-type: none;
         background-color: #FFFFFF;
         color: var(--primaryBrand:#4D5AE5);
@@ -97,13 +90,10 @@ ul{
 .linkcurrent:focus{  
         color: var(--pressedState: #404BBF);
 }
-
 .style-adress {
  margin-left: auto;       
  font-style: normal;
-
 }
-
 .adres{
         font-family: "Roboto",sans-serif;
         text-decoration: none;
@@ -121,8 +111,6 @@ ul{
 .adres:focus {
         color: var(--pressedState);
 }
-
-
 .hero-title { 
         font-family: "Roboto",sans-serif;
         font-size: 56px;
@@ -136,7 +124,6 @@ ul{
         margin-right: auto;
         margin-bottom: 48px;
 }
-
 .hero-buttton {
         font-family: "Roboto", sans-serif;
         font-size: 16px;
@@ -154,7 +141,6 @@ ul{
         background-color: #404BBF;
         color:#FFFFFF;
 }
-
 .button {   
         cursor: pointer;
         font-family:"Roboto", sans-serif;
@@ -163,34 +149,27 @@ ul{
         line-height: 1.5;
         letter-spacing: 0.04em;
         background-color:#4D5AE5
-        color:#FFFFFF;
-       
+        color:#FFFFFF;      
 }
 .button:hover,
 .button:focus {    
         color: #FFFFFF;
         background-color: #404BBF;            
 }
-
  /* ---------Site nav-------- */
-
 .site-nav .link {
     color: var(--mainColor);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     padding: 24px 0;
-  
     letter-spacing: 0.02em;
     text-decoration: none;
   }
-  
 .site-nav .link:hover,
 .site-nav .link:focus {
      color: #404BBF;
 }
-
-
 .site-nav.link.current{
         font-family: "Raleway" sans-serif;
         font-size: 18px;
@@ -199,10 +178,7 @@ ul{
         letter-spacing: 0.03em;
         text-align: left;
         color: var(--mainColor);  
-  }
-  
-  
-     
+  }    
 /* ---------  main -------- */
 .button {   
         cursor: pointer;
@@ -220,12 +196,6 @@ ul{
         background-color: #404BBF;       
 }
 
-.section-hero {
-        background-color: #2E2F42 ;
-        padding-top: 188px;
-        padding-bottom: 188px;
-   
-}
 .section-title {
         font-size: 36px;
         font-weight: 700;
@@ -237,23 +207,20 @@ ul{
         color: var(--mainColor);
         font-family: "Roboto",sans-serif;
 }
-
 .bgcolorteam {
         background-color: #F4F4FD;
 }
 .bgcolorteam {
         color: var(--lightBg: #F4F4FD);
   }     
-               
-.namecard {     
+ .namecard {     
          font-style: normal;
          font-weight: 500;
          font-size: 20px;
          line-height: 1.2;
          letter-spacing: 0.02em;
          color: #2E2F42;
-         margin-bottom: 8px;
-        
+         margin-bottom: 8px;       
 }
 .namecard-team {     
         font-style: normal;
@@ -285,9 +252,7 @@ ul{
 .bg-each-team {
         background-color:#FFFFFF ;
 }
-
 /*----footer------*/
-
 .footer-text {  
         color: #F4F4FD;
         background: #2E2F42;
@@ -309,23 +274,19 @@ ul{
         margin-bottom: 16px;
         padding-top: 0;
 }
-
 .foot-web {
         color: #4D5AE5;
-        text-transform: uppercase;
-        
+        text-transform: uppercase;     
         }
 .foot-studio {
         color: #F4F4FD;
         text-transform: uppercase;
-}
-       
+}      
 .section-foot{
         background-color:#2E2F42 ;
         padding-top: 100px;
         padding-bottom: 100px;
 }
-
  .effect {
         font-size: 56px;
         font-weight: 700;
@@ -334,10 +295,7 @@ ul{
         color: #F4F4FD;
         background: #2E2F42;
  }
-
-
 /*---- homework-3------*/
-
  .container {
         width: 1158px;
         padding-left: 15px;
@@ -345,8 +303,6 @@ ul{
         margin-left: auto;
         margin-right: auto;
 }
-
-
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -359,52 +315,46 @@ ul{
         clip: rect(0 0 0 0);
         overflow: hidden;
       }
-
 .nav-menu {   
         display:flex ;
         align-items: center;      
-}
-   
+}  
 .menu{
         display:flex ;
         gap: 40px;
         margin:0;
         align-items: center;
 }
-
 .header-container {
         display:flex;
-
 }
-
 .item-li {
         display: block;
         border-radius: 0px 0px 4px 4px;
 }
-
 .li-menu-list {
         width: calc((100% - 72px) / 4);
 }
 .width{
         width: calc((100% - 48px) / 3);
-
 }
-
-
-
 .ul-menu-studio{
         display: flex;
         gap: 24px;      
 }
-
 .sect-three {
-        padding-bottom: 120px;
-      
+        padding-bottom: 120px;     
 }
 .padding-for-all {
        padding-top: 120px;  
        padding-bottom: 120px;
 }
+.section-features{
+        padding-top: 120px;  
+        padding-bottom: 120px;
+}
+
+
 .section-pad-portf{
         padding-top: 96px;
         padding-bottom: 120px;
@@ -440,50 +390,38 @@ ul{
         padding-left: 16px;
         padding-right: 16px;
 }
-
 .img-block{
-        border-top: none;
-     
+        border-top: none;   
 }
 
 /*-----portfolio----*/
-
 .order-but {
         padding-top: 12px;
         padding-bottom: 12px;
         padding-left: 24px;
         padding-right: 24px;
         border: 1px solid #e7e9fc;
-        border-radius: 4px;
-       
+        border-radius: 4px;     
 }
-
 .order-but:hover,
 .order-but:focus {
         border: 1px solid transparent;
 }
 .wrap-portf{
 flex-wrap: wrap;
-
 }
-
 .ul-menu-portf {
         display: flex;
         gap: 24px;
         justify-content: center;
         margin-bottom: 72px;   
 }
-
 .ul-portf {
         display: flex;
         row-gap: 48px;
         column-gap: 24px;
         justify-content: center;
 }
-
-
-
-
 .header {
         border-bottom: 1px solid #e7e9fc;
 }
@@ -491,5 +429,33 @@ flex-wrap: wrap;
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
+}
+
+/*-----homework 4-----*/
+
+.section-hero {
+        background-color: #2E2F42;
+        padding-top: 188px;
+        padding-bottom: 188px;
+}
+
+.hero {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-bottom: 72px;
+        background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/hw4/people-office.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+.customer-item {
+       
+
+}
+.icons-features{
+        width: 64px;
+        height: 64px;;
+
 
 }
