@@ -337,7 +337,8 @@ ul{
 }
 .ul-menu-studio{
         display: flex;
-        gap: 24px;      
+        gap: 24px; 
+           
 }
 .sect-three {
         padding-bottom: 120px;     
@@ -442,8 +443,16 @@ flex-wrap: wrap;
         background-size: cover;
 }
 /*-------FEATURES----*/
-.icons-features{
-     
+
+.bgcolor-icons-features{
+         background-color: #F4F4FD;
+         width: 264px;
+         height: 112p;
+         border-radius: 4px;
+      
+        
+
+
 }
 /*----- Our Team ----*/
 .trailing-icons{
@@ -604,13 +613,49 @@ list-style-type: none;
         width: 408px;
         min-height: 584px;
         border-radius: 4px;
-        background-color: #FCFCFC;
+        background: #FCFCFC;
         box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateX(-50%) translateY(-50%) scale (1);
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform: translateX(-50% )
+        translateY(-50%) scale(1);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+        
 }
- 
+    
+
+
+
+.modal-icon:hover,
+.modal-icon:focus {
+            fill: #FFFFFF;
+     }
+
+.data-modal-open{
+
+
+}
+.data-modal-close{
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        background-color: var(--buttons-boardes);
+        border-radius: 50%;
+        border: 1px solid rgba( 0, 0, 0, 0.10);
+        width: 24px;
+        height: 24px;
+        padding: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+!!!     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+.data-modal-close:hover,
+.data-modal-close.:focus{
+        background-color: #404BBF;
+        border: none;
+   }
      
