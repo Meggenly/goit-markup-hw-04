@@ -35,7 +35,18 @@ ul{
 .link {
        text-decoration: none;
        font-family: "Roboto",sans-serif;
+       display: block;
+   
 }
+.link:hover,
+.link:focus{
+border 
+
+}
+
+
+
+
 .list {
         list-style-type: none;
         background-color: #FFFFFF;
@@ -96,7 +107,7 @@ ul{
         left: 0;
         width: 100%;
         height: 4px;
-        color: #404BBF;
+        background-color: #404BBF;
         border-radius: 2px;
 }
 .active{
@@ -344,6 +355,8 @@ ul{
 .item-li {
         display: block;
         border-radius: 0px 0px 4px 4px;
+     
+      
 }
 .li-menu-list {
         width: calc((100% - 72px) / 4);
@@ -451,7 +464,7 @@ flex-wrap: wrap;
 .hero {
         max-width: 1440px;
         margin: 0 auto;
-        padding-bottom: 72px;
+        padding-bottom: 188px;
         background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url(../images/hw4/people-office.jpg);
         background-repeat: no-repeat;
@@ -505,8 +518,6 @@ list-style-type: none;
 }
 .icon {
         display: inline-block;
-        width: 1em;
-        height: 1em;
         stroke-width: 0;
         stroke: currentColor;
         fill: currentColor;
@@ -572,7 +583,7 @@ list-style-type: none;
        margin-right: 120px;
 }  
 .footer-two{
-        margin-bottom: 16px;     
+    
 } 
 .footer-media{
         font-family: Roboto;
@@ -640,15 +651,25 @@ list-style-type: none;
         
 }
 
+.modal-icon{
+        fill:#2E2F42;
+        background-color: #FFFFFF;
+        border:1px solid rgba(0, 0, 0, 0.10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 .modal-icon:hover,
 .modal-icon:focus {
-            fill: #FFFFFF;
-     }
+        background-color: #404BBF;
+        border: none;
+}
 
-.data-modal-open{
 
-
-}.data-modal-close {
+.data-modal-close {
         position: absolute;
         top: 24px;
         right: 24px;
@@ -663,11 +684,36 @@ list-style-type: none;
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms 
+        cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 
-.data-modal-close:hover,
-.data-modal-close.:focus {
-        background-color: #404BBF;
-        border: none;
+/*----   OVERLAY  ----*/
+
+.overlay-wrapper{
+        position: relative;
+        overflow: hidden;
 }
+.overlay{
+        position: absolute;
+        top: 0;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+        padding: 40px 32px;
+        background-color: #4D5AE5;
+        width: 100%;
+        height: 100%;
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay-wrapper:hover .overlay,
+.overlay-wrapper:focus .overlay{
+            transform: translateY(0%);
+}
+
+      
+
