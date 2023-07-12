@@ -159,6 +159,7 @@ border
         background-color:#4D5AE5;      
         color:#FFFFFF;
         border: none;
+        transition
 }
 .hero-buttton:hover,
 .hero-buttton:focus {
@@ -291,6 +292,7 @@ border
         line-height: 1.5;
         letter-spacing: 0.02em;
         max-width: 264px;
+
 } 
 .link-footlogo {
         font-family:"Raleway",sans-serif ;
@@ -361,7 +363,7 @@ border
 .item-li {
         display: block;
         border-radius: 0px 0px 4px 4px;
-     
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
       
 }
 .li-menu-list {
@@ -405,6 +407,7 @@ border
         border: none;
         margin-left: auto;
         margin-right: auto;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-button:hover,
 .order-button:focus {    
@@ -493,7 +496,7 @@ flex-wrap: wrap;
 
 
 .trailing-icons{
-fill: var(--iris, #4D5AE5);
+fill: var(--iris, #F4F4FD);
 }
 .team-list{
 list-style-type: none;
@@ -549,7 +552,8 @@ list-style-type: none;
         color: var(--navyblue, #2E2F42);
         text-align: center;
         margin-bottom: 72px;
-        margin-bottom: 0 px;    
+        margin-bottom: 0 px; 
+        line-height: 1.11;
 }
 .customer-list {
        
@@ -588,6 +592,8 @@ list-style-type: none;
    /*----  footer-4  ----*/
 .container-footer{
         display: flex;
+        align-items: baseline;
+
 }
 .footer-one{           
        margin-right: 120px;
@@ -603,6 +609,7 @@ list-style-type: none;
         line-height: 24px;
         color: var(--white, #FFF);
         margin-bottom: 16px;
+        letter-spacing: 0.02em;
 }
 .footer-icon{
         display: flex;
