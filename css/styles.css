@@ -619,6 +619,7 @@ list-style-type: none;
         height: 100%;
 } 
    /*---  modal-window ----*/
+
 .backdrop{
         position: fixed;
         top: 0;
@@ -647,46 +648,33 @@ list-style-type: none;
         left: 50%;
         transform: translateX(-50% )
         translateY(-50%) scale(1);
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);    
-        
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);           
 }
-
 .modal-icon{
         fill:#2E2F42;
-        background-color: #FFFFFF;
         border:1px solid rgba(0, 0, 0, 0.10);
-        display: flex;
         align-items: center;
         justify-content: center;
-        cursor: pointer;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+        cursor: pointer; 
+        width: 8px;
+        height: 8px;
+        flex-shrink: 0;
 }
-.modal-icon:hover,
-.modal-icon:focus {
-        background-color: #404BBF;
-        border: none;
-}
-
-
-.data-modal-close {
+.modal-btn {
         position: absolute;
         top: 24px;
         right: 24px;
-        background-color: var(--buttons-boardes);
+        background-color: #E7E9FC ;
         border-radius: 50%;
         border: 1px solid rgba(0, 0, 0, 0.10);
         width: 24px;
         height: 24px;
-        padding: 0;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        transition: background-color 250ms 
-        cubic-bezier(0.4, 0, 0.2, 1);
-        
+        padding: 0; 
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+}
+.modal-btn:hover .modal-icon
+.modal-btn:hover .modal-icon{
+        fill: #FFFFFF ;
 }
 
 /*----   OVERLAY  ----*/
@@ -714,6 +702,5 @@ list-style-type: none;
 .overlay-wrapper:focus .overlay{
             transform: translateY(0%);
 }
-
-      
+ 
 
