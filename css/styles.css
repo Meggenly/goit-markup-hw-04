@@ -36,11 +36,14 @@ ul{
        text-decoration: none;
        font-family: "Roboto",sans-serif;
        display: block;
+        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          
    
 }
 .link:hover,
 .link:focus{
-border 
+box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        
 
 }
 
@@ -94,6 +97,8 @@ border
         padding-top: 24px;
         padding-bottom: 24px;
         position:relative; 
+        color: #404BBF;
+        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .linkcurrent:hover,
 .linkcurrent:focus{  
@@ -108,6 +113,7 @@ border
         height: 4px;
         background-color: #404BBF;
         border-radius: 2px;
+        bottom: -1px;
 }
 .active{
         color: #404BBF;
@@ -179,7 +185,13 @@ border
 .button:hover,
 .button:focus {    
         color: #FFFFFF;
-        background-color: #404BBF;            
+        background-color: #404BBF; 
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+                        0px 2px 1px rgba(0, 0, 0, 0.08),
+                        0px 2px 2px rgba(0, 0, 0, 0.12);
+        
+        
+                  
 }
  /* ---------Site nav-------- */
 .site-nav .link {
@@ -220,6 +232,11 @@ border
         letter-spacing: 0.04em;
         color: #4D5AE5;
         background-color: #F4F4FD;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+               
 }
 .button:hover,
 .button:focus {    
@@ -359,6 +376,7 @@ border
 }
 .header-container {
         display:flex;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .item-li {
         display: block;
@@ -455,6 +473,9 @@ flex-wrap: wrap;
         row-gap: 48px;
         column-gap: 24px;
         justify-content: center;
+        box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+             
+
 }
 .header {
         border-bottom: 1px solid #e7e9fc;
@@ -496,7 +517,7 @@ flex-wrap: wrap;
 
 
 .trailing-icons{
-fill: var(--iris, #F4F4FD);
+        fill:  #F4F4FD;
 }
 .team-list{
 list-style-type: none;
