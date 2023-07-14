@@ -35,19 +35,15 @@ ul{
 .link {
        text-decoration: none;  
        display: block; 
-       transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-       
+       transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);      
 }
-.link-card-portf{
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
-
-
-
 .link:hover,
 .link:focus{
 box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         
+}
+.link-card-portf{
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .list {
         list-style-type: none;
@@ -130,7 +126,10 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
         font-style: normal;
         padding-top: 24px;
         padding-bottom: 24px;
-        display: block;     
+        display: block; 
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+         
+            
 }
 .adres:hover,
 .adres:focus {
@@ -191,8 +190,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
 .active{
         color: #404BBF;
   }
-
-.site-nav .link {
+.site-nav {
     color: var(--mainColor);
     font-weight: 500;
     font-size: 16px;
@@ -201,15 +199,11 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
     letter-spacing: 0.02em;
     text-decoration: none;
   }
- 
-
-
-
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav :hover,
+.site-nav :focus {
      color: #404BBF;
 }
-.site-nav.link.current{
+.site-nav .current{
         font-family: "Raleway" sans-serif;
         font-size: 18px;
         font-weight: 800;
@@ -255,7 +249,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
 }
 .bgcolorteam {
         color: var(--lightBg: #F4F4FD);
-  }     
+}     
  .namecard {     
          font-style: normal;
          font-weight: 500;
