@@ -37,13 +37,11 @@ ul{
        display: block; 
        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);      
 }
-.link:hover,
-.link:focus{
-box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        
-}
+
+
+
 .link-card-portf{
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+        box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .list {
         list-style-type: none;
@@ -92,7 +90,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
         padding-top: 24px;
         padding-bottom: 24px;
         position:relative; 
-        color: #404BBF;
+        color: #2E2F42;
         transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .linkcurrent:hover,
@@ -195,12 +193,11 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    padding: 24px 0;
     letter-spacing: 0.02em;
     text-decoration: none;
   }
-.site-nav :hover,
-.site-nav :focus {
+.site-nav:hover,
+.site-nav:focus {
      color: #404BBF;
 }
 .site-nav .current{
@@ -503,6 +500,21 @@ flex-wrap: wrap;
          align-items: center;
          margin-bottom: 8px;
 }
+.icons{
+        background-color: #F4F4FD;
+        border-radius: 4px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+}
+
+
+
+
+
+
+
 /*----- Our Team ----*/
 
 
@@ -752,8 +764,8 @@ list-style-type: none;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-wrapper:hover .overlay,
-.overlay-wrapper:focus .overlay{
+.link-card-portf:hover .overlay,
+.link-card-portf:focus .overlay{
             transform: translateY(0%);
 }
  
