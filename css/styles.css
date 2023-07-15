@@ -766,7 +766,7 @@ list-style-type: none;
 
 .link-card-portf:hover .overlay,
 .link-card-portf:focus .overlay{
-            transform: translateY(0%);
+        transform: translateY(0%);
 }
  
 
