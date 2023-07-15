@@ -682,6 +682,7 @@ list-style-type: none;
 }
 .modal-icon{
         fill:#2E2F42;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modal-btn{
         position: absolute;
@@ -732,7 +733,11 @@ list-style-type: none;
         transform: translateY(100%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-card-portf.hover,
+.link-card-portf{
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.link-card-portf:hover,
 .link-card-portf:focus{
         box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
