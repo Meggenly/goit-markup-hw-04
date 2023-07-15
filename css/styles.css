@@ -34,8 +34,7 @@ ul{
 }
 .link {
        text-decoration: none;  
-       display: block; 
-        
+       display: block;         
 }
 
 
@@ -195,7 +194,7 @@ ul{
     text-decoration: none;
   }
 .site-nav:hover,
-.site-nav:focus {
+.site-nav:focus{
      color: #404BBF;
 }
 .site-nav .current{
@@ -497,9 +496,7 @@ flex-wrap: wrap;
          justify-content: center;
          align-items: center;
          margin-bottom: 8px;
-}
-
-        
+}       
 /*----- Our Team ----*/
 
 .trailing-icons{
