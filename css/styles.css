@@ -38,11 +38,6 @@ ul{
        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);      
 }
 
-
-
-.link-card-portf{
-        box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 .list {
         list-style-type: none;
         background-color: #FFFFFF;
@@ -500,23 +495,9 @@ flex-wrap: wrap;
          align-items: center;
          margin-bottom: 8px;
 }
-.icons{
-        background-color: #F4F4FD;
-        border-radius: 4px;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 8px;
-}
 
-
-
-
-
-
-
+        
 /*----- Our Team ----*/
-
 
 .trailing-icons{
         fill:  #F4F4FD;
@@ -620,9 +601,7 @@ list-style-type: none;
 .footer-one{           
        margin-right: 120px;
 }  
-.footer-two{
-    
-} 
+
 .footer-media{
         font-family: Roboto;
         font-size: 16px;
@@ -698,21 +677,11 @@ list-style-type: none;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateX(-50% )
-        translateY(-50%) scale(1);
+        transform: translateX(-50%) translateY(-50%) scale(1);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);           
 }
 .modal-icon{
         fill:#2E2F42;
-        border:1px solid rgba(0, 0, 0, 0.10);
-        align-items: center;
-        justify-content: center;
-        cursor: pointer; 
-        width: 8px;
-        height: 8px;
-        flex-shrink: 0;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
 }
 .modal-btn{
         position: absolute;
@@ -762,6 +731,11 @@ list-style-type: none;
         height: 100%;
         transform: translateY(100%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-card-portf.hover,
+.link-card-portf:focus{
+        box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .link-card-portf:hover .overlay,
